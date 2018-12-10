@@ -129,7 +129,7 @@ def generate_sentences(length_prob, markov, bigram_model, unigrams, num):
     for length in list_of_lengths:
         probability = 0;
         tweet = ""
-        while probability < 0.75:
+        while probability < 0.9:
             tweet = markov.generate(length)
             probability = get_sentence_probability(bigram_model, unigrams, tweet)
         output.append(tweet)
