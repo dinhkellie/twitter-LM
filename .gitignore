@@ -1,3 +1,7 @@
 /out.txt
 /.vscode
 /.DS_Store
+/bigrams.txt
+/hmm.txt
+/model.txt
+/unigrams.txt
